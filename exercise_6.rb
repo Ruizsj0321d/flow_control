@@ -24,3 +24,12 @@ equal_to_four(5)
 # To solve this we place an end on line 6 and push the end on line 6 to line
 # 7 remembering to observe proper Ruby code etiquette to line up the missing
 # end with the `if/else` statement and the second end with the `def` method.
+
+# Here is the LS solution (it's similar to my solution just that they
+# describe it differently and refer to other lines of code to match up the
+# solution.)
+
+# Solution exercise 6: You get this error because the `end` in the code above
+# gets matched with the `if..else` statement. The error message is telling us
+# that the interpreter was expecting the keyword `end` to close off our
+# `equal_to_four` method, that `end` was not found.
